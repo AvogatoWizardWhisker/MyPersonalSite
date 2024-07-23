@@ -3,10 +3,22 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - MyPersonalSite</title>
+    <title>@ViewData["Title"] - Avogato's website</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/MyPersonalSite.styles.css" asp-append-version="true" />
+    <meta name="theme-color" content="#dd940d" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="canonical" href="https://avogatowizardwhisker.azurewebsites.net/">
+    <!-- OpenGraph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avogatowizardwhisker.azurewebsites.net/" />
+    <meta property="og:title" content="@ViewData["Title"] - AvogatoWizardWhisker" />
+    <meta property="og:description" content="Explore my boring website I made from scratch" />
+    <meta property="og:image" content="https://th.bing.com/th/id/OIG4.5ciYccEwHNmxLw85p0fI?pid=ImgGn" />
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary" />
+
 </head>
 <body>
     <header>
@@ -38,7 +50,9 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2024 - MyPersonalSite - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2024 - AvogatoWizardWhisker - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            - 
+            <a asp-area="" asp-page=""></a>
         </div>
     </footer>
 
