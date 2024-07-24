@@ -25,8 +25,10 @@ a {
 
 .border-top {
   border-top: 1px solid #e5e5e5;
+  background-image: (50deg, rgb(16, 148, 51) 30%, #dc1f1f 60%);
 }
 .border-bottom {
+  background-image: (50deg, rgb(16, 148, 51) 30%, #dc1f1f 60%);
   border-bottom: 1px solid #e5e5e5;
 }
 
