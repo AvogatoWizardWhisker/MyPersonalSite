@@ -1,0 +1,39 @@
+﻿@page
+@model MyPersonalSite.Pages.ToolsModel
+@{
+    ViewData["Title"] = "Tools";
+}
+<h2 class="text-center">
+    Here are the tools I used to build this website
+    <img src="~/icons/Toolbox.png" alt="Toolbox icon" width="50" height="50" />
+</h2>
+<hr />
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Tools</th>
+            <th>Comment(?)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">
+                <img class="card-img-top" src="~/img/dotnet-logo.svg" alt="dotnet logo" height="100" width="100"/>
+                <td>This framework is used with ASP.NET with Razor Pages.</td>
+            </th>
+        </tr>
+        <tr>
+            <th scope="row">
+                <img class="card-img-top" src="~/img/Bootstrap_logo.svg" alt="Bootstrap logo" height="90" width="90"/>
+                <td>This gorgeous tool makes your website <i>so stylish.</i></td>
+            </th>
+        </tr>
+        <tr>
+            <th scope="row">
+                <img class="card-img-top" src="~/img/Visual_Studio_Icon_2022.svg" alt="Visual Studio 2022 logo" height="80" width="80"/>
+                <td>This is the IDE I used to build this website.</td>
+            </th>
+        </tr>
+    </tbody>
+</table>
+
