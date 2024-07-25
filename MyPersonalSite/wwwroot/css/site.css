@@ -18,5 +18,11 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    /*background-image: url('../img/bg2.png');
+    background-size: cover;
+    background-repeat: no-repeat;*/
+}
+.header1 {
+    color: aquamarine
 }
