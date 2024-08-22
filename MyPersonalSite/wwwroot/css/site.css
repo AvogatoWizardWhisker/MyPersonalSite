@@ -28,8 +28,9 @@ body {
 body.dark-theme{
     background-color: #373b3e;
     margin-bottom: 60px;
-    style{
-        background-color: azure;
+
+    p, h1, div{
+        color: white;
     }
 }
 .header1 {
