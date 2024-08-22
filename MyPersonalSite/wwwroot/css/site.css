@@ -22,6 +22,15 @@ body {
     /*background-image: url('../img/bg2.png');
     background-size: cover;
     background-repeat: no-repeat;*/
+    background-color: white;
+}
+
+body.dark-theme{
+    background-color: #373b3e;
+    margin-bottom: 60px;
+    style{
+        background-color: azure;
+    }
 }
 .header1 {
     color: aquamarine
