@@ -1,12 +1,15 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="auto">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Avogato's website</title>
+    <meta name="description" content="Explore my boring website I made from scratch">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap-icons/dist/css/bootstrap-icons.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/MyPersonalSite.styles.css" asp-append-version="true" />
+    <script type="module" src="~/js/site.js" asp-append-version="true"></script>
     <meta name="theme-color" content="#dd940d" />
     <meta name="format-detection" content="telephone=no" />
     <link rel="canonical" href="https://avogatowizardwhisker.azurewebsites.net/">
@@ -18,9 +21,8 @@
     <meta property="og:image" content="https://th.bing.com/th/id/OIG4.5ciYccEwHNmxLw85p0fI?pid=ImgGn" />
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary" />
-
 </head>
-<body class="dark-theme">
+<body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
@@ -55,16 +57,30 @@
         <div class="container">
             &copy; 2024 - Avogato The Ailurophile - <a asp-area="" asp-page="/Privacy">Privacy</a>
             - 
-            <a asp-area="" asp-page="/Contacts">Find me</a>
+            <a asp-area="" asp-page="/Contacts">Contact</a>
             <div class="float-end">
-                <button type="button" class="btn btn-primary" id="theme-switcher">dark mode</button>
+                <div class="dropup">
+                    <button class="btn dropdown-toggle" id="bd-theme" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-lightbulb"></i>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="bd-theme">
+                        <li>
+                            <a class="dropdown-item active" data-bs-theme-value="auto"><i class="bi bi-circle-half"></i> Auto</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" data-bs-theme-value="light"><i class="bi bi-sun theme-icon"></i> Light</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" data-bs-theme-value="dark"><i class="bi bi-moon-stars theme-icon"></i> Dark</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
