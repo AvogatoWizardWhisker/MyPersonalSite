@@ -19,9 +19,6 @@ html {
 
 body {
     margin-bottom: 60px;
-    /*background-image: url('../img/bg2.png');
-    background-size: cover;
-    background-repeat: no-repeat;*/
     background-color: white;
 }
 
@@ -29,11 +26,12 @@ body.dark-theme{
     background-color: #373b3e;
     margin-bottom: 60px;
 
-    p, h1, div{
+    h1, div, nav, .navbar-brand,.navbar-nav, .nav-item, .navbar-collapse .nav-link {
         color: white;
     }
+    #nav-link, a{
+      color: lime;
+    }
 }
-.header1 {
-    color: aquamarine
-}
+
 
