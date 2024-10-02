@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.FluentUI.AspNetCore.Components;
 
 namespace MyPersonalSite.Pages
 {
