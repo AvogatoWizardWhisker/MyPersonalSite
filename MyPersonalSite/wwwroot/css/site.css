@@ -22,14 +22,12 @@ body {
     background-color: white;
 }
 
-body.dark-theme{
+body.dark-theme {
     background-color: #373b3e;
     margin-bottom: 60px;
-
-    h1, div, nav, .navbar-brand,.navbar-nav, .nav-item, .navbar-collapse .nav-link, .card .card-text, .card-body, card{
-        color: white;
+    h1, div, nav, .navbar-brand,.navbar-nav, .nav-item, .navbar-collapse .nav-link, .card .card-text, .card-body, card, .list-group-flush, .list-group-item, .card-header{
+    color: white;
     }
     #nav-link, a{
       color: lime;
     }
-}
