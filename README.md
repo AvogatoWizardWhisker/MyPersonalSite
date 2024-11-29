@@ -29,7 +29,7 @@ Follow these steps to get your development environment set up:
 3. Build the project:
 
 In Visual Studio, click on Build > Build Solution or press Ctrl+Shift+B.
-In VS Code, right-click on `Program.cs` file then click on "Open in external terminal" or launch the terminal via shortcut key <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>c</kbd>. Then type `dotnet build`.
+In VS Code, right-click on `Program.cs` file then click on "Open in external terminal" or launch the terminal via shortcut key <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>c</kbd>. Then type `dotnet build`.
 
 4. Run the application:
 
