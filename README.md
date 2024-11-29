@@ -2,7 +2,7 @@
 
 This repository contains the source code for my improved personal website built with ASP.NET with Razor Pages.
 
-![Screenshot 2024-11-29 163947](https://github.com/user-attachments/assets/a71786c9-e2e2-4d58-bf32-720cf28e2c75)
+![A screenshot of my personal website in Microsoft Edge browser](https://github.com/user-attachments/assets/4c2f20dd-e0a9-40c0-8713-989e9837ddb7)
 
 ## Prerequisites
 
