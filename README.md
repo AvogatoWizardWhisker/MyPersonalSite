@@ -8,7 +8,7 @@ This repository contains the source code for my improved personal website built 
 
 Before you begin, ensure you have met the following requirements:
 
-1. Visual Studio 2022: Download and install [Visual Studio](https://visualstudio.microsoft.com/vs/) for Windows with the ASP.NET and web development workload. You can also use Visual Studio Code, which is a cross-platform IDE for every OS (Windows, Linux, macOS) and install C# Dev Kit Extension.
+1. Visual Studio 2022: Download and install [Visual Studio](https://visualstudio.microsoft.com/vs/) for Windows with the ASP.NET and web development workload. You can also use [Visual Studio Code](https://code.visualstudio.com/) (often refers as VS Code), which is a cross-platform IDE for every OS (Windows, Linux, macOS) and install C# Dev Kit Extension.
 
 2. .NET SDK: Ensure you have the latest version of .NET SDK installed. You can download it from [here](https://dotnet.microsoft.com/en-us/download).
 
@@ -35,11 +35,11 @@ In VS Code, right-click on `Program.cs` file then click on "Open in external ter
 
 Press F5 to run the application. This will start the local development server and open your default web browser to the application.
 
-# Usage
+## Usage
 
 Once the application is running, you can access it at `http://localhost:5000` (or the port specified in your launch settings).
 
-# Contributing
+## Contributing
 
 If you want to contribute to this project, please follow these steps:
 
