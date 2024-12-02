@@ -50,5 +50,10 @@ If you want to contribute to this project, please follow these steps:
 - Push to the branch `git push origin feature-branch`.
 - Open a pull request.
 
+## Ressources
+
+- Bootstrap (for CSS styling): https://getbootstrap.com/docs/5.3/getting-started/introduction/ 
+- Project template of ASP.NET Web App.
+
 # License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/AvogatoWizardWhisker/MyPersonalSite?tab=MIT-1-ov-file#) file for details.
