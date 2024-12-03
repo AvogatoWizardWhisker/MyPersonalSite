@@ -2,7 +2,8 @@
 
 This repository contains the source code for my improved personal website built with ASP.NET with Razor Pages.
 
-![A screenshot of my personal website in Microsoft Edge browser](https://github.com/user-attachments/assets/4c2f20dd-e0a9-40c0-8713-989e9837ddb7)
+![A screenshot of my personal website in Microsoft Edge browser](https://github.com/user-attachments/assets/57122ffb-acf3-4199-a935-aaef1c2def0f)
+
 
 ## Prerequisites
 
@@ -52,8 +53,9 @@ If you want to contribute to this project, please follow these steps:
 
 ## Ressources
 
-- Bootstrap (for CSS styling): https://getbootstrap.com/docs/5.3/getting-started/introduction/ 
+- [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) for CSS styling. 
 - Project template of ASP.NET Web App.
+- I used [TinyPNG](https://tinypng.com/) to optimze images for faster load.
 
 # License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/AvogatoWizardWhisker/MyPersonalSite?tab=MIT-1-ov-file#) file for details.
