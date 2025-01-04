@@ -34,7 +34,9 @@ In VS Code, right-click on `Program.cs` file then click on "Open in external ter
 
 4. Run the application:
 
-Press F5 to run the application. This will start the local development server and open your default web browser to the application.
+In Visual Studio, press alt + F5 to run the application. This will start the local development server and open your default web browser to the application.
+
+In Visual Studio Code, right click on `Program.cs` and click on "Open in external terminal". Then type `dotnet run`. 
 
 ## Usage
 
