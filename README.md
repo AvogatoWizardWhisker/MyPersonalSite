@@ -13,6 +13,8 @@ Before you begin, ensure you have met the following requirements:
 
 2. .NET SDK: Ensure you have the latest version of .NET SDK installed. You can download it from [here](https://dotnet.microsoft.com/en-us/download).
 
+3. Git: make sure you also have git installed in your computer. You can download it [here](https://git-scm.com/downloads).
+
 ## Installation
 Follow these steps to get your development environment set up:
 
